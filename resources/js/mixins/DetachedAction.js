@@ -11,6 +11,8 @@ export default {
     selectedResources: 'all',
     confirmActionModalOpened: false,
     invisibleActionsOpen: false,
+    showActionResponseModal: false,
+    actionResponseData: {},
   }),
 
   /**
