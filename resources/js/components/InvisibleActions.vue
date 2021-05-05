@@ -34,6 +34,7 @@ export default {
     methods: {
         click(action) {
             this.$emit('dropdown-link-click', action)
+            this.open = false
         }
     }
 }
